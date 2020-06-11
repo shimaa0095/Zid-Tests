@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="196524" started-at="2020-06-11T17:55:26 EET" finished-at="2020-06-11T17:58:43 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="196524" started-at="2020-06-11T17:55:26 EET" finished-at="2020-06-11T17:58:43 EET">
+      <class name="tests.RegistrationTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RegistrationTest@694e1548]" name="beforeClass" is-config="true" duration-ms="27174" started-at="2020-06-11T17:55:27 EET" finished-at="2020-06-11T17:55:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RegistrationTest@694e1548]" name="testRegisteration" duration-ms="8927" started-at="2020-06-11T17:55:54 EET" data-provider="DataProviderForusers" finished-at="2020-06-11T17:56:03 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55555555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f1@f.cim]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[55555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[repoa]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[مطعم]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[مأكولات ومشروبات]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[لا]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[الاسم يجب ان يحتوي على 3 حروف على الأقل]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RegistrationTest@694e1548]" name="endOfTest" is-config="true" duration-ms="3476" started-at="2020-06-11T17:56:03 EET" finished-at="2020-06-11T17:56:07 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RegistrationTest@694e1548]" name="beforeClass" is-config="true" duration-ms="21873" started-at="2020-06-11T17:56:07 EET" finished-at="2020-06-11T17:56:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RegistrationTest@694e1548]" name="testRegisteration" duration-ms="5949" started-at="2020-06-11T17:56:29 EET" data-provider="DataProviderForusers" finished-at="2020-06-11T17:56:35 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shimaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f2@f.cim]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[55555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[repob]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[مطعم]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[مأكولات ومشروبات]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[لا]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[رقم الجوال يجب ان يحتوي على 8 أرقام على الأقل]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RegistrationTest@694e1548]" name="endOfTest" is-config="true" duration-ms="1128" started-at="2020-06-11T17:56:35 EET" finished-at="2020-06-11T17:56:36 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RegistrationTest@694e1548]" name="beforeClass" is-config="true" duration-ms="9421" started-at="2020-06-11T17:56:36 EET" finished-at="2020-06-11T17:56:45 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RegistrationTest@694e1548]" name="testRegisteration" duration-ms="7269" started-at="2020-06-11T17:56:45 EET" data-provider="DataProviderForusers" finished-at="2020-06-11T17:56:53 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shimaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55555555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sho@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[55555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[repoc]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[مطعم]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[مأكولات ومشروبات]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[لا]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[البريد الإلكتروني مستخدم من قبل]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at tests.RegistrationTest.testRegisteration(RegistrationTest.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RegistrationTest@694e1548]" name="endOfTest" is-config="true" duration-ms="794" started-at="2020-06-11T17:56:53 EET" finished-at="2020-06-11T17:56:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RegistrationTest@694e1548]" name="beforeClass" is-config="true" duration-ms="16318" started-at="2020-06-11T17:56:53 EET" finished-at="2020-06-11T17:57:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RegistrationTest@694e1548]" name="testRegisteration" duration-ms="8539" started-at="2020-06-11T17:57:10 EET" data-provider="DataProviderForusers" finished-at="2020-06-11T17:57:18 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shimaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55555555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[55555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[repod]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[مطعم]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[مأكولات ومشروبات]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[لا]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[يجب كتابة البريد الإلكتروني بشكل صحيح]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RegistrationTest@694e1548]" name="endOfTest" is-config="true" duration-ms="1119" started-at="2020-06-11T17:57:18 EET" finished-at="2020-06-11T17:57:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RegistrationTest@694e1548]" name="beforeClass" is-config="true" duration-ms="20004" started-at="2020-06-11T17:57:19 EET" finished-at="2020-06-11T17:57:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RegistrationTest@694e1548]" name="testRegisteration" duration-ms="3411" started-at="2020-06-11T17:57:39 EET" data-provider="DataProviderForusers" finished-at="2020-06-11T17:57:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shimaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55555555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f3@f.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[repoe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[مطعم]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[مأكولات ومشروبات]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[لا]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[كلمة المرور مطلوبة]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at tests.RegistrationTest.testRegisteration(RegistrationTest.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RegistrationTest@694e1548]" name="endOfTest" is-config="true" duration-ms="661" started-at="2020-06-11T17:57:43 EET" finished-at="2020-06-11T17:57:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RegistrationTest@694e1548]" name="beforeClass" is-config="true" duration-ms="19162" started-at="2020-06-11T17:57:43 EET" finished-at="2020-06-11T17:58:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RegistrationTest@694e1548]" name="testRegisteration" duration-ms="3934" started-at="2020-06-11T17:58:03 EET" data-provider="DataProviderForusers" finished-at="2020-06-11T17:58:07 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shimaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[00000000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f6@f.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[55555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[repoh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[مأكولات ومشروبات]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[لا]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[اسم المتجر مطلوب]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RegistrationTest@694e1548]" name="endOfTest" is-config="true" duration-ms="1485" started-at="2020-06-11T17:58:07 EET" finished-at="2020-06-11T17:58:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RegistrationTest@694e1548]" name="beforeClass" is-config="true" duration-ms="29135" started-at="2020-06-11T17:58:08 EET" finished-at="2020-06-11T17:58:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="testRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RegistrationTest@694e1548]" name="testRegisteration" duration-ms="4773" started-at="2020-06-11T17:58:37 EET" data-provider="DataProviderForusers" finished-at="2020-06-11T17:58:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shimaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[00000000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sh@sh.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11111111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[repoi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[مطعم]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[مأكولات ومشروبات]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[لا]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[https://web.zid.sa/home]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at tests.RegistrationTest.testRegisteration(RegistrationTest.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisteration -->
+        <test-method status="PASS" signature="endOfTest()[pri:0, instance:tests.RegistrationTest@694e1548]" name="endOfTest" is-config="true" duration-ms="977" started-at="2020-06-11T17:58:42 EET" finished-at="2020-06-11T17:58:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTest -->
+      </class> <!-- tests.RegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
