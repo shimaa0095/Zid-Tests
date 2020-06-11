@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "a27b502a-700e-4af6-8fab-ab5bc03bac5b",
+		"name": "Login Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login Api Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3d0e7189-492c-4b81-8435-b8f005511e6b",
+						"exec": [
+							"\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(pm.globals.get(\"result\"));\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "345904c9-b11d-4009-ba36-9a2c3b22be6d",
+						"exec": [
+							"pm.globals.set(\"result\", pm.iterationData.get(\"result\"));\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "www.phptravels.net"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "origin",
+						"value": "https://www.phptravels.net"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.phptravels.net/login"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ga=GA1.2.467056054.1587563819; __cfduid=d8421840e92dca3f294db411a1cda640f1591777765; ci_session=b99d88936224e6add70ecc5242c7a1ffb0c77535; _gid=GA1.2.464450237.1591777770"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":{{userName}},\r\n\"password\":{{password}},\r\n\"result\":{{result}}\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.phptravels.net/account/login",
+					"protocol": "https",
+					"host": [
+						"www",
+						"phptravels",
+						"net"
+					],
+					"path": [
+						"account",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

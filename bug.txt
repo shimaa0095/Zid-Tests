@@ -1,0 +1,21 @@
+﻿1- go to https://web.zid.sa/login 
+2- enter email: "sho@test.com"
+3- enter password: "11111111"
+4- click on login button
+5- from "المنتجات" drop down list click on "جميع المنتجات" 
+6- click on "اضافه منتج جديد" button
+7- write the product name: "ارز باللبن" on "اسم المنتج" text box
+8- write the product quantity:0 on  "الكميه" text box
+9- write the product price:20 on "السعر" text box
+10- check on "النشر علي المتجر"
+11- click on "حفظ"
+12- click "اعرض صفحه المتجر"
+
+expected
+        - you will find "نفذت الكميه" on the "ارز باللبن" product
+actual 
+        - you will find "نفذت الكميه" on the "ارز باللبن" product
+
+- you will can't add the product to basket icon
+- the “Merchants are receiving orders for out of stock products” 
+bug is not reproduced.

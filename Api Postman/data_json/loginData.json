@@ -1,0 +1,12 @@
+[
+    {
+      "userName":"test@test.com",
+      "password":"test@test.com",
+      "result":"true"
+    },
+    {
+      "userName":"hagur",
+      "password":"222",
+      "result":"Invalid Email or Password"
+    }
+]

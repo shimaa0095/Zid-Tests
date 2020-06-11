@@ -1,0 +1,21 @@
+
+[
+    {
+        "firstname":"shimaa",
+        "lastname":"ahmed",
+        "phone":"01111111111",
+        "email":"test",
+        "password":"test",
+        "confirmpassword":"test",
+        "registerResult":"The Email field must contain a valid email address."
+    },
+    {
+        "firstname":"shimaa",
+        "lastname":"ahmed",
+        "phone":"01111111111",
+        "email":"test@test.com",
+        "password":"test@test.com",
+        "confirmpassword":"test@test.com",
+        "registerResult":"true"
+    }
+]
